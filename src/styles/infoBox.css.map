@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,IAAI,EAAE,CAAC;EACP,MAAM,EAAE,OAAO;CAChB;;AACD,AAAA,QAAQ,AAAA,IAAK,CAAA,WAAW,EAAE;EACxB,YAAY,EAAE,MAAM;CACrB;;AAID,AAAA,aAAa,CAAC;EACZ,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,cAAc;EAC3B,SAAS,EAAE,iBAAiB;EAC5B,UAAU,EAAE,eAAe;CAC5B",
+    "sources": [
+        "infoBox.scss"
+    ],
+    "names": [],
+    "file": "infoBox.css"
+}
