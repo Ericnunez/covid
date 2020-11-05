@@ -5,12 +5,39 @@
 .infoBox:not(:last-child) {
   margin-right: 1.5rem;
 }
+
 .infoBoxTitle {
+  font-size: 1.2rem !important;
+}
+
+.infoBoxNumbers {
+  font-size: 1.7rem !important;
+  h2 {
+    color: rgb(204, 16, 52) !important;
+  }
+}
+.infoBoxNumbersGreen {
+  font-size: 1.7rem !important;
+  h2 {
+    color: rgb(0, 102, 0) !important;
+  }
 }
 
 .infoBoxTotal {
   color: #6c757d;
   font-weight: 700 !important;
-  font-size: 0.8rem !important;
+  font-size: 1.1rem !important;
   margin-top: 15px !important;
+}
+
+.infoBoxRecovered {
+  border-top: 5px solid rgb(0, 102, 0);
+}
+
+.infoBoxCases {
+  border-top: 5px solid rgb(204, 16, 52);
+}
+
+.infoBoxDeaths {
+  border-top: 5px solid rgb(251, 68, 67);
 }

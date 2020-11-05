@@ -2,6 +2,7 @@ table {
   margin-top: 1rem;
   color: #6a5d5d;
   width: 100%;
+  font-size: 1.3rem;
 }
 
 table tr:nth-of-type(odd) {

@@ -16,14 +16,16 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 1.5rem;
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 .dropdown {
   background-color: white;
+  font-size: 3rem;
 }
 .appRight {
   display: flex;
@@ -34,6 +36,23 @@ body {
     flex-grow: 1;
   }
 }
+.topCard {
+  margin-bottom: 1rem;
+  text-align: center;
+  h5:nth-of-type(odd) {
+    background-color: #f3f2f8;
+  }
+  h1 {
+    margin-bottom: 1rem;
+  }
+  h5 {
+    text-align: left;
+    color: #6c757d;
+  }
+  .topCardTitle {
+    color: #6a5d5d;
+  }
+}
 .appGraph {
   flex-grow: 1;
 }
@@ -42,19 +61,30 @@ body {
   justify-content: space-between;
 }
 .information {
-  h3 {
+  h1 {
+    text-align: center;
+  }
+  h1:last-of-type {
+    margin-top: 1rem;
+  }
+  h2 {
     color: #6a5d5d;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
   }
   h3:last-of-type {
     margin-top: 1rem;
   }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1112px) {
   .app {
     flex-direction: column;
+  }
+  .topCard {
+    margin-top: 1rem;
   }
 }
